@@ -1,7 +1,7 @@
 // Adapted from code by: https://github.com/d3ngit
 
 #define SERIAL_TYPE                                                 0       //0==SoftSerial(Arduino_Nano), 1==HardSerial(others)
-#define VBAT_ANALOG_PIN                                             2
+#define VBAT_ANALOG_PIN                                             A0
 #include <GCS_MAVLink.h>
 #include <MSP.h>
 #include "MSP_OSD.h"
